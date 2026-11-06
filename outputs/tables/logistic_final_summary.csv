@@ -1,0 +1,25 @@
+seccion,indicador,variable_categoria,referencia,valor,desviacion_estandar,unidad,ambito,fuente,interpretacion
+desempeno,accuracy,,,0.6415742208135236,,proporcion,Test sin ponderacion,outputs/metrics/logistic_model_comparison.csv,
+desempeno,roc_auc,,,0.6980890343983854,,area_ROC,Test sin ponderacion,outputs/metrics/logistic_model_comparison.csv,
+desempeno,f1_macro,,,0.6414259010081542,,score_F1,Test sin ponderacion,outputs/metrics/logistic_model_comparison.csv,
+desempeno,f1_clase_0,Sin cuenta,,0.6341331895389593,,score_F1,Test sin ponderacion,outputs/metrics/logistic_metrics.csv,
+desempeno,f1_clase_1,Con cuenta,,0.6487186124773492,,score_F1,Test sin ponderacion,outputs/metrics/logistic_metrics.csv,
+desempeno,sensibilidad_sin_cuenta,Sin cuenta (positiva),,0.6228813559322034,,proporcion,Test sin ponderacion,outputs/metrics/logistic_sensitivity_specificity.csv,TP / (TP + FN); 1176 / 1888
+desempeno,especificidad_sin_cuenta,Sin cuenta (positiva),,0.660168598524763,,proporcion,Test sin ponderacion,outputs/metrics/logistic_sensitivity_specificity.csv,TN / (TN + FP); 1253 / 1898
+desempeno,proporcion_sin_cuenta_no_detectada,Sin cuenta,,0.3771186440677966101694915254,,proporcion,Test sin ponderacion,outputs/metrics/logistic_sensitivity_specificity.csv,"FN / (TP + FN); 712 / 1888; aproximadamente 37,7%"
+desempeno,accuracy_baseline,,,0.5013206550449023,,proporcion,Test sin ponderacion,outputs/metrics/logistic_model_comparison.csv,Predice siempre con cuenta
+validacion_cruzada,accuracy,,,0.6457958580049394,0.003675653753577752,proporcion,5 folds estratificados solo en entrenamiento,outputs/metrics/logistic_cross_validation.csv,Media y desviacion estandar muestral ddof=1
+validacion_cruzada,f1_sin_cuenta,,,0.6426547056649573,0.005028339423309978,score_F1,5 folds estratificados solo en entrenamiento,outputs/metrics/logistic_cross_validation.csv,Media y desviacion estandar muestral ddof=1
+validacion_cruzada,f1_con_cuenta,,,0.6488311382739617,0.00500853363278116,score_F1,5 folds estratificados solo en entrenamiento,outputs/metrics/logistic_cross_validation.csv,Media y desviacion estandar muestral ddof=1
+validacion_cruzada,f1_macro,,,0.6457429219694595,0.0036894529985374274,score_F1,5 folds estratificados solo en entrenamiento,outputs/metrics/logistic_cross_validation.csv,Media y desviacion estandar muestral ddof=1
+validacion_cruzada,roc_auc,,,0.7025879239580807,0.005983484114567874,area_ROC,5 folds estratificados solo en entrenamiento,outputs/metrics/logistic_cross_validation.csv,Media y desviacion estandar muestral ddof=1
+odds_ratio,educ,Secundaria,Primaria o menos,1.8034063189874041,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,educ,Terciaria o más,Primaria o menos,4.237950663265948,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,mobileowner,Tiene teléfono,No tiene teléfono,2.4032145158751352,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,inc_q,Quintil 2,Quintil 1,1.252225130180148,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,inc_q,Quintil 3,Quintil 1,1.4754042388844704,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,inc_q,Quintil 4,Quintil 1,1.6920263681069856,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,inc_q,Quintil 5,Quintil 1,2.3295622009155337,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,emp_in,En fuerza laboral,Fuera de fuerza laboral,1.5569626836696808,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,age,Edad: un año adicional,Edad centrada en media de entrenamiento,1.0190782999613008,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Mayores odds de tener cuenta; manteniendo constantes las demas variables
+odds_ratio,female,Mujer,Hombre,0.9424859262664985,,razon_de_odds,Ajuste sobre entrenamiento; objetivo tener cuenta,outputs/tables/logistic_coefficients.csv,Menores odds de tener cuenta; manteniendo constantes las demas variables
