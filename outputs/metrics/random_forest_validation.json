@@ -1,0 +1,10 @@
+{
+  "notebook": "notebooks/03_random_forest.ipynb",
+  "kernel_nuevo": true,
+  "ejecucion_desde": "notebooks/",
+  "celdas_codigo_ejecutadas": 9,
+  "errores": 0,
+  "split_guardado_sin_cambios": true,
+  "notebook_02_y_04_y_resultados_logisticos_intactos": true,
+  "verificaciones": "Random Forest base, seis predictores, matrices y métricas coherentes, persistencia de pipeline, insumos intactos"
+}

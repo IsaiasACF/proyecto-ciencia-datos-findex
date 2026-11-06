@@ -1,0 +1,129 @@
+{
+  "dataset": "data/processed/findex_lac_clean.csv",
+  "dataset_sha256": "7695ea41b4cc06354ce1409fcb1719c9b9228a1923c0f849aee4b606bf2d7aa7",
+  "split": "outputs/tables/model_split_indices.csv",
+  "split_sha256": "a0eec4dac2ada51301031cd17a364807f260d9cb007802c8f0bd0358bff35efa",
+  "predictors": [
+    "age",
+    "female",
+    "educ",
+    "inc_q",
+    "emp_in",
+    "mobileowner"
+  ],
+  "n_train": 15141,
+  "n_test": 3786,
+  "search": {
+    "type": "RandomizedSearchCV",
+    "n_iter": 16,
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "scoring": [
+      "roc_auc",
+      "f1_macro"
+    ],
+    "refit": "roc_auc",
+    "parameter_space": {
+      "modelo__n_estimators": [
+        100,
+        200,
+        300
+      ],
+      "modelo__max_depth": [
+        4,
+        6,
+        8,
+        12,
+        null
+      ],
+      "modelo__min_samples_split": [
+        2,
+        10,
+        30
+      ],
+      "modelo__min_samples_leaf": [
+        1,
+        5,
+        15,
+        30
+      ],
+      "modelo__max_features": [
+        "sqrt",
+        0.5,
+        1.0
+      ]
+    },
+    "n_jobs": 2,
+    "train_only": true
+  },
+  "best_params": {
+    "modelo__n_estimators": 300,
+    "modelo__min_samples_split": 2,
+    "modelo__min_samples_leaf": 15,
+    "modelo__max_features": 0.5,
+    "modelo__max_depth": 8
+  },
+  "model_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 8,
+    "max_features": 0.5,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 15,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "best_cv_summary_ddof1": [
+    {
+      "metrica": "roc_auc",
+      "media": 0.7101371648580288,
+      "desviacion_estandar_ddof1": 0.005115279401300865
+    },
+    {
+      "metrica": "f1_macro",
+      "media": 0.6509715376155896,
+      "desviacion_estandar_ddof1": 0.006157879044649142
+    }
+  ],
+  "selection_uses_test": false,
+  "tuned_test_inference_calls": 1,
+  "test_threshold": "P(account_fin=1)>0.5; empates clase 0",
+  "weighting": "Sin ponderación",
+  "model_path": "models/random_forest_tuned.joblib",
+  "artifact_sha256": {
+    "outputs/metrics/random_forest_tuned_best_cv_folds.csv": "88aef53c79e73e46aebfbb3b90dd749a5035cbde4de2eeb8dda5f6bcc8ec714b",
+    "outputs/metrics/random_forest_tuned_class_comparison.csv": "0a4cd600e48ad85a94defbf9d1745b770d9d6f000e06dd1b06d7ea1eb341bef7",
+    "outputs/metrics/random_forest_tuned_confusion_matrix.csv": "d1765ab3394585b5d8dfe751c5f622b710c8099eb70b245b67e29bd852109a01",
+    "outputs/metrics/random_forest_tuned_cv_results.csv": "915eec32d3ff7f683b6f604413051257899a6d79b304a5085a86e6f13681b1c2",
+    "outputs/metrics/random_forest_tuned_cv_summary.csv": "91fcd45129f5943a271b5d005362092f583c0e5ac60b70980a4e361b2cc7aa74",
+    "outputs/metrics/random_forest_tuned_metrics.csv": "15a46e1b44c26e8a39da0b41970a49d6af0719e544caa46b25f8dae66b596634",
+    "outputs/metrics/random_forest_tuned_model_comparison.csv": "c87eb6b761f8e21b209bd9439748172435031545d93d29095254ae06020af93f",
+    "outputs/metrics/random_forest_tuned_overall_metrics.csv": "cd222a7d4ac7975782b1b482bdd73ead63cfe9c1675d6911fa633d7f3eda1799",
+    "outputs/metrics/random_forest_tuned_roc_points.csv": "8c1c0d7420cb3acbacd9677f3a090199c7d97f502f0729f6d65b583a974483d9",
+    "outputs/metrics/random_forest_tuned_sensitivity_specificity.csv": "0e4762ef5f783ad68c87bfc809265a5c38bbf4ed2c65cbcc4d25a238b6376747",
+    "outputs/metrics/random_forest_tuned_test_predictions.csv": "aad2d6d76ce10f10bdc8a2a89ea49f6673171e79f99481158c425d94ee1ed09a",
+    "outputs/metrics/random_forest_tuned_best_params.json": "df26aa71077c15b98b108a588acb7db0c11d43efb1255c53ecf0f2ea0727855b",
+    "outputs/figures/random_forest_tuned_confusion_matrix.png": "e4e69b245f090a6549cc06c2da89d96cf594bcdf6cc030cf23f8d9400525bdc8",
+    "outputs/figures/random_forest_tuned_roc_curve.png": "a308567b35c82443200514c45513a82d0ecae6a3a4ae1d831106df0c79dc9037"
+  },
+  "packages": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "python": "3.12.3"
+}

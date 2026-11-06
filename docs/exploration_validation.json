@@ -1,0 +1,24 @@
+{
+  "ejecuciones": [
+    {
+      "directorio_de_ejecucion": "notebooks/",
+      "kernel_nuevo": true,
+      "celdas_codigo_ejecutadas": 25,
+      "errores": 0,
+      "figuras": 7,
+      "tablas": 22,
+      "artefactos_verificados": 30
+    },
+    {
+      "directorio_de_ejecucion": ".",
+      "kernel_nuevo": true,
+      "celdas_codigo_ejecutadas": 25,
+      "errores": 0,
+      "figuras": 7,
+      "tablas": 22,
+      "artefactos_verificados": 30
+    }
+  ],
+  "artefactos_identicos_entre_ejecuciones": true,
+  "verificacion": "SHA-256 de dataset procesado, todas las tablas CSV y las siete figuras PNG"
+}

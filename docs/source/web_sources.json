@@ -1,0 +1,50 @@
+[
+  {
+    "file": "docs/source/catalog_metadata.json",
+    "url": "https://microdata.worldbank.org/metadata/export/3324/json",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "8caea9ee1954df1e2883a5f95daf433f73b3bd3bd659ce4673ed4fb8fae92e1d"
+  },
+  {
+    "file": "docs/source/account_fin.html",
+    "url": "https://microdata.worldbank.org/catalog/3324/variable/F2/V194?name=account_fin",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "857f369d0f9a9676039ac081b1c377f54984be51b04c59119cd6a17583dc90af"
+  },
+  {
+    "file": "docs/source/mobileowner.html",
+    "url": "https://microdata.worldbank.org/catalog/3324/variable/F2/V192?name=mobileowner",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "82d3e6c5e5864c2d34cd991b5f8399edcb5c6f818f412efac61b427f0f5e78a4"
+  },
+  {
+    "file": "docs/source/ReadMe.pdf",
+    "url": "https://microdata.worldbank.org/catalog/3324/download/44602",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "53ef74057e3852e263066cc0ce594d5fedc4c0851be99019bc068209ca693dfe"
+  },
+  {
+    "file": "docs/source/Micro17_indicators.do",
+    "url": "https://microdata.worldbank.org/catalog/3324/download/44605",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "456ff73dbf445d591f075596282f256c04827513af63d14fbd97769a3ee81603"
+  },
+  {
+    "file": "docs/source/Indicator_definitions_2017.pdf",
+    "url": "https://microdata.worldbank.org/catalog/3324/download/44601",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "809dccae54938b96a16d96403e8ac0b892676f7b1311c3e77c271f7d7e73b287"
+  },
+  {
+    "file": "docs/source/Glossary2017.pdf",
+    "url": "https://microdata.worldbank.org/catalog/3324/download/44604",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "82606e852d9b44e214b0917190f5a51e8ffd5cbf2456c82422d654d1e1a53ebf"
+  },
+  {
+    "file": "docs/source/Questionnaire2017.pdf",
+    "url": "https://microdata.worldbank.org/catalog/3324/download/44599",
+    "fecha_consulta": "2026-11-06",
+    "sha256": "241cf189d870fe8e6448ea6bb2fcf9b12a61a79fec166946cc562e2d88c510b5"
+  }
+]

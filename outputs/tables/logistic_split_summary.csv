@@ -1,0 +1,5 @@
+particion,clase,etiqueta,n,porcentaje_particion,n_particion
+entrenamiento,0,No tiene cuenta,7549,49.858001453008384,15141
+entrenamiento,1,Tiene cuenta,7592,50.141998546991616,15141
+prueba,0,No tiene cuenta,1888,49.86793449550977,3786
+prueba,1,Tiene cuenta,1898,50.13206550449023,3786

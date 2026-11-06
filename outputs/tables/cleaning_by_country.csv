@@ -1,0 +1,21 @@
+economy,economycode,n_antes,n_final,n_eliminado,porcentaje_eliminado
+Argentina,ARG,1000,998,2,0.2
+Bolivia,BOL,1000,999,1,0.1
+Brazil,BRA,1000,990,10,1
+Chile,CHL,1040,1038,2,0.1923076923
+Colombia,COL,1000,997,3,0.3
+Costa Rica,CRI,1000,997,3,0.3
+Dominican Republic,DOM,1000,953,47,4.7
+Ecuador,ECU,1000,999,1,0.1
+El Salvador,SLV,1000,999,1,0.1
+Guatemala,GTM,1000,996,4,0.4
+Haiti,HTI,504,503,1,0.1984126984
+Honduras,HND,1000,998,2,0.2
+Mexico,MEX,1000,991,9,0.9
+Nicaragua,NIC,1000,998,2,0.2
+Panama,PAN,1000,991,9,0.9
+Paraguay,PRY,1000,998,2,0.2
+Peru,PER,1000,998,2,0.2
+Trinidad and Tobago,TTO,504,490,14,2.777777778
+Uruguay,URY,1000,996,4,0.4
+"Venezuela, RB",VEN,1000,998,2,0.2

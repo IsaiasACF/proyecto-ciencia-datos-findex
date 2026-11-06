@@ -1,0 +1,2 @@
+clase_positiva,etiqueta,n_prueba,verdaderos_positivos,falsos_negativos,falsos_positivos,verdaderos_negativos,sensibilidad,especificidad
+0,Sin cuenta,3786,1229,659,654,1244,0.6509533898305084,0.6554267650158061

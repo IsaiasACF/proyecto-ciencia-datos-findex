@@ -1,0 +1,120 @@
+{
+  "dataset": "data/processed/findex_lac_clean.csv",
+  "dataset_sha256": "7695ea41b4cc06354ce1409fcb1719c9b9228a1923c0f849aee4b606bf2d7aa7",
+  "predictors": [
+    "age",
+    "female",
+    "educ",
+    "inc_q",
+    "emp_in",
+    "mobileowner"
+  ],
+  "target": "account_fin",
+  "random_state": 42,
+  "test_size": 0.2,
+  "stratify": "account_fin",
+  "n_train": 15141,
+  "n_test": 3786,
+  "weighting": "Sin sample_weight ni class_weight",
+  "threshold_class_1": "P(account_fin=1) > 0.5",
+  "majority_class_training": 1,
+  "age_training_mean": 41.87992867049733,
+  "category_references": [
+    {
+      "variable": "female",
+      "codigo_referencia": 1,
+      "categoria_referencia": "Hombre"
+    },
+    {
+      "variable": "educ",
+      "codigo_referencia": 1,
+      "categoria_referencia": "Primaria o menos"
+    },
+    {
+      "variable": "inc_q",
+      "codigo_referencia": 1,
+      "categoria_referencia": "Quintil 1"
+    },
+    {
+      "variable": "emp_in",
+      "codigo_referencia": 0,
+      "categoria_referencia": "Fuera de fuerza laboral"
+    },
+    {
+      "variable": "mobileowner",
+      "codigo_referencia": 2,
+      "categoria_referencia": "No tiene teléfono"
+    }
+  ],
+  "parameters": {
+    "solver": "lbfgs",
+    "penalty": "L2",
+    "C": 1.0,
+    "max_iter": 2000,
+    "tol": 1e-08
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "dataset": "Solo X_train e y_train",
+    "f1_definitions": {
+      "f1": "Alias de f1_con_cuenta",
+      "f1_sin_cuenta": "Clase positiva 0",
+      "f1_con_cuenta": "Clase positiva 1",
+      "f1_macro": "Promedio simple de F1 por clase"
+    },
+    "std_ddof": 1,
+    "mean": {
+      "accuracy": 0.6457958580049394,
+      "f1": 0.6488311382739617,
+      "f1_sin_cuenta": 0.6426547056649573,
+      "f1_con_cuenta": 0.6488311382739617,
+      "f1_macro": 0.6457429219694595,
+      "roc_auc": 0.7025879239580807
+    },
+    "std": {
+      "accuracy": 0.003675653753577752,
+      "f1": 0.00500853363278116,
+      "f1_sin_cuenta": 0.005028339423309978,
+      "f1_con_cuenta": 0.00500853363278116,
+      "f1_macro": 0.0036894529985374274,
+      "roc_auc": 0.005983484114567874
+    }
+  },
+  "holdout_class_0": {
+    "sensitivity": 0.6228813559322034,
+    "specificity": 0.660168598524763
+  },
+  "iterations": [
+    122
+  ],
+  "python": "3.12.3",
+  "packages": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "artifact_sha256": {
+    "outputs/figures/logistic_confusion_matrix.png": "10d4a5734010b30ac2c9ffc3e729a4c1efdb85e09be54753b15eedc6b7a6a130",
+    "outputs/figures/logistic_roc_curve.png": "6238b92472dbecee148619c72cb45609986eeb549a867533504359e16ac2ccef",
+    "outputs/figures/logistic_odds_ratios.png": "c35695fd2e12e2de65dad204dc0cc8a2d3bd667b07ef63159ddf95387ef26484",
+    "outputs/metrics/logistic_metrics.csv": "0896c51eae9bf9c414953b6c3194790fe3dc74c12f749617a3ec3f38f2dac01d",
+    "outputs/metrics/logistic_model_comparison.csv": "90979f3940c5c1be7d83963a28b39d0bb4f466bed7c4230b84b2822273067f12",
+    "outputs/metrics/logistic_test_predictions.csv": "35a8ed1b7c96781fc87ff5aaef957993239017a0949676f542b9d9e530ea9e56",
+    "outputs/metrics/logistic_confusion_matrix.csv": "15db423ecca23998cc832c5a5f4ddeda6f66ad43cc17dc10cff324a519a3a559",
+    "outputs/metrics/logistic_roc_points.csv": "04582d223b639779c5157a16c01519885c66fd2899939c491d4a0d972dac8615",
+    "outputs/metrics/logistic_cross_validation.csv": "c6f710ce3662abc9493f4e6bb191ef6c9170e8b36a1ac60fbac50f95118b62c5",
+    "outputs/metrics/logistic_sensitivity_specificity.csv": "90def1cccf2de8ce689dc087fef51d5615483e90b56d99bf0352cf22e57e42eb",
+    "outputs/tables/logistic_coefficients.csv": "5a96989730c22924ebb6a188de32f12bd88702a5c6e75fdff9f792a787b74e21",
+    "outputs/tables/logistic_reference_categories.csv": "68c9abf74a74fc3e2c8ff820183f472e9d70789bb73f5c24f4ffd9a77566e744",
+    "outputs/tables/logistic_split_summary.csv": "e29cb2b7f1e1902b490e9c1f893ebade42d63ddb3c5dd77075bc0484c77b92fd",
+    "outputs/tables/model_split_indices.csv": "a0eec4dac2ada51301031cd17a364807f260d9cb007802c8f0bd0358bff35efa"
+  },
+  "model_file": "models/logistic_regression.joblib",
+  "checks": "Sin faltantes, separación de índices, preprocesamiento solo train, convergencia, log-odds y probabilidades reconstruidos, métricas coherentes, modelo recargado y dataset intacto"
+}

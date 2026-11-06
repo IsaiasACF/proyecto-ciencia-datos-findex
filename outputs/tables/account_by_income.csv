@@ -1,0 +1,6 @@
+inc_q,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,etiqueta,ponderacion,universo
+1,3432,1178,89298817.47,34794722.24,2254,34.32400932,38.96437067,Quintil 1,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+2,3439,1416,90693526.67,41313868.65,2023,41.1747601,45.55327174,Quintil 2,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+3,3691,1778,91044028.11,48836618.7,1913,48.17122731,53.64066125,Quintil 3,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+4,3930,2139,91250001.39,54330088.11,1791,54.42748092,59.53982168,Quintil 4,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+5,4435,2979,93164550.15,68733298.45,1456,67.17023675,73.77623607,Quintil 5,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos

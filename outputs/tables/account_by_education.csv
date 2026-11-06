@@ -1,0 +1,4 @@
+educ,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,etiqueta,ponderacion,universo
+1,7245,2823,154631282.7,67756956.74,4422,38.96480331,43.81840178,Primaria o menos,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+2,9801,5208,256476340.9,145865371.5,4593,53.13743496,56.87283708,Secundaria,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+3,1881,1459,44343300.23,34386267.94,422,77.56512493,77.54557681,Terciaria o más,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos

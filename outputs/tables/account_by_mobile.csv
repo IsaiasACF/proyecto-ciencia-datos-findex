@@ -1,0 +1,3 @@
+mobileowner,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,etiqueta,ponderacion,universo
+1,15060,8295,360797372.1,216366352.1,6765,55.07968127,59.96893792,Tiene teléfono,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+2,3867,1195,94653551.66,31642244.05,2672,30.9025084,33.42953698,No tiene teléfono,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos

@@ -1,0 +1,8 @@
+patron,n
+Completo,18927
+educ,70
+mobileowner,32
+age,16
+"age, mobileowner",1
+"age, educ",1
+"educ, mobileowner",1

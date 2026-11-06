@@ -1,0 +1,3 @@
+female,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,etiqueta,ponderacion,universo
+1,7537,4136,216145885.4,124761515.1,3401,54.87594534,57.72097622,Hombre,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos
+2,11390,5354,239305038.4,123247081,6036,47.00614574,51.50208365,Mujer,wgt × población adulta 2016 / suma wgt original país,LAC geográfica cubierta; casos completos

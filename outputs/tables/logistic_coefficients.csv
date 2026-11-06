@@ -1,0 +1,12 @@
+caracteristica_transformada,variable,variable_categoria,categoria_referencia,unidad_comparacion,coeficiente,odds_ratio,direccion_asociacion
+edad__age,age,Edad: un año adicional,Edad centrada en media de entrenamiento,Un año adicional,0.018898591289822714,1.0190782999613008,Mayores odds de tener cuenta
+categorias__female_2,female,Mujer,Hombre,Mujer frente a Hombre,-0.05923429211469739,0.9424859262664985,Menores odds de tener cuenta
+categorias__educ_2,educ,Secundaria,Primaria o menos,Secundaria frente a Primaria o menos,0.5896772760075538,1.8034063189874041,Mayores odds de tener cuenta
+categorias__educ_3,educ,Terciaria o más,Primaria o menos,Terciaria o más frente a Primaria o menos,1.4440798182648822,4.237950663265948,Mayores odds de tener cuenta
+categorias__inc_q_2,inc_q,Quintil 2,Quintil 1,Quintil 2 frente a Quintil 1,0.22492207295068684,1.252225130180148,Mayores odds de tener cuenta
+categorias__inc_q_3,inc_q,Quintil 3,Quintil 1,Quintil 3 frente a Quintil 1,0.3889320125047878,1.4754042388844704,Mayores odds de tener cuenta
+categorias__inc_q_4,inc_q,Quintil 4,Quintil 1,Quintil 4 frente a Quintil 1,0.5259268450501826,1.6920263681069856,Mayores odds de tener cuenta
+categorias__inc_q_5,inc_q,Quintil 5,Quintil 1,Quintil 5 frente a Quintil 1,0.8456803533200558,2.3295622009155337,Mayores odds de tener cuenta
+categorias__emp_in_1,emp_in,En fuerza laboral,Fuera de fuerza laboral,En fuerza laboral frente a Fuera de fuerza laboral,0.44273692575006096,1.5569626836696808,Mayores odds de tener cuenta
+categorias__mobileowner_1,mobileowner,Tiene teléfono,No tiene teléfono,Tiene teléfono frente a No tiene teléfono,0.876807222797106,2.4032145158751352,Mayores odds de tener cuenta
+intercepto,intercepto,Intercepto,Perfil de referencia a la edad media de entrenamiento,Odds base del perfil; no es una comparación entre categorías,-1.8166745775337168,0.1625654518756172,"Intercepto: odds base, no asociación de un predictor"

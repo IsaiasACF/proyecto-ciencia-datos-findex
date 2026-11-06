@@ -1,0 +1,22 @@
+{
+  "notebook": "notebooks/02_regresion_logistica.ipynb",
+  "kernel_nuevo": true,
+  "ejecucion_final_desde": ".",
+  "celdas_codigo_ejecutadas": 16,
+  "errores": 0,
+  "predicciones_coeficientes_y_metricas_holdout_previos_intactos": true,
+  "cross_validation": {
+    "folds": 5,
+    "solo_entrenamiento": true,
+    "pipeline_hiperparametros_predictores_sin_cambios": true,
+    "accuracy_f1_clase_1_roc_auc_previos_reproducidos": true,
+    "f1_por_clase_verificado_con_predicciones_fold": true,
+    "f1_macro_verificado_por_fold": true,
+    "desviacion_estandar_calculada_por_metrica_ddof_1": true
+  },
+  "sensibilidad_clase_0": 0.6228813559322034,
+  "especificidad_clase_0": 0.660168598524763,
+  "dataset_procesado_intacto": true,
+  "parametros_y_huellas": "outputs/metrics/logistic_run_info.json",
+  "resumen": "docs/resultados_regresion_logistica.md"
+}

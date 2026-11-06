@@ -1,0 +1,7 @@
+grupo_edad,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,ponderacion
+15–24,3936,1479,112240272.9,43273630.99,2457,37.57621951,38.55445987,wgt × población adulta 2016 / suma wgt original país
+25–34,3936,2171,99986525.43,61862312,1765,55.15752033,61.8706488,wgt × población adulta 2016 / suma wgt original país
+35–44,3234,1800,83180200.33,51097244.47,1434,55.65862709,61.4295761,wgt × población adulta 2016 / suma wgt original país
+45–54,2752,1430,67019618.26,40099670.64,1322,51.9622093,59.83273508,wgt × población adulta 2016 / suma wgt original país
+55–64,2334,1193,46024306.42,25507837.53,1141,51.11396744,55.42253542,wgt × población adulta 2016 / suma wgt original país
+65+,2735,1417,47000000.41,26167900.53,1318,51.80987203,55.67638363,wgt × población adulta 2016 / suma wgt original país

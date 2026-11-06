@@ -1,0 +1,75 @@
+{
+  "lac": {
+    "criterio": "regionwb LAC más CHL, URY y TTO por geografía",
+    "n_antes_limpieza": 19048,
+    "n_economias": 20
+  },
+  "republica_dominicana": [
+    {
+      "grupo": "Original",
+      "n": 1000,
+      "porcentaje_original": 100.0,
+      "con_cuenta": 519,
+      "sin_cuenta": 481,
+      "porcentaje_con_cuenta": 51.9,
+      "porcentaje_sin_cuenta": 48.1,
+      "porcentaje_con_cuenta_ponderado_wgt": 54.78295034451911
+    },
+    {
+      "grupo": "Conservadas",
+      "n": 953,
+      "porcentaje_original": 95.3,
+      "con_cuenta": 496,
+      "sin_cuenta": 457,
+      "porcentaje_con_cuenta": 52.04616998950682,
+      "porcentaje_sin_cuenta": 47.95383001049318,
+      "porcentaje_con_cuenta_ponderado_wgt": 55.07541797796455
+    },
+    {
+      "grupo": "Eliminadas",
+      "n": 47,
+      "porcentaje_original": 4.7,
+      "con_cuenta": 23,
+      "sin_cuenta": 24,
+      "porcentaje_con_cuenta": 48.93617021276596,
+      "porcentaje_sin_cuenta": 51.06382978723404,
+      "porcentaje_con_cuenta_ponderado_wgt": 48.5782239192686
+    }
+  ],
+  "account_fin": {
+    "definicion_oficial": "1 si cumple al menos un criterio de tenencia; 0 en caso contrario",
+    "fin1_disponible": false,
+    "micro17_construye_account_fin": false,
+    "reconstruccion_completa": "No identificable con las fuentes publicadas disponibles",
+    "columnas_comprobacion_parcial": [
+      "fin3",
+      "fin31a",
+      "fin34a",
+      "fin34c2",
+      "fin39a",
+      "fin39c2",
+      "fin43a"
+    ],
+    "comparaciones": [
+      {
+        "ambito": "Mundial",
+        "n": 154923,
+        "positivos_identificados_parcialmente": 81353,
+        "contradicciones_positivos_parciales_con_account_fin_0": 0,
+        "diferencias_reconstruccion_parcial_incompleta": 11572,
+        "discrepancias_identidad_account_fin_o_account_mob": 0
+      },
+      {
+        "ambito": "LAC antes de limpiar",
+        "n": 19048,
+        "positivos_identificados_parcialmente": 8160,
+        "contradicciones_positivos_parciales_con_account_fin_0": 0,
+        "diferencias_reconstruccion_parcial_incompleta": 1382,
+        "discrepancias_identidad_account_fin_o_account_mob": 0
+      }
+    ],
+    "discrepancias_csv_ascii": 0,
+    "filas_comparadas_csv_ascii": 154923
+  },
+  "datos_procesados_sha256": "7695ea41b4cc06354ce1409fcb1719c9b9228a1923c0f849aee4b606bf2d7aa7"
+}

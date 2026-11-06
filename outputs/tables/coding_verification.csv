@@ -1,0 +1,26 @@
+variable,codigo,etiqueta_oficial,n_catalogo,n_csv
+account_fin,0,,61998,61998
+account_fin,1,yes,92925,92925
+account_fin,2,no,0,0
+account_fin,3,dk/ref,0,0
+female,1,Male,71330,71330
+female,2,Female,83593,83593
+educ,1,completed primary or less,53176,53176
+educ,2,secondary,75663,75663
+educ,3,completed tertiary or more,25164,25164
+educ,4,(dk),479,479
+educ,5,(rf),431,431
+educ,Sysmiss,,10,10
+inc_q,1,Poorest 20%,26343,26343
+inc_q,2,Second 20%,27876,27876
+inc_q,3,Middle 20%,29853,29853
+inc_q,4,Fourth 20%,32602,32602
+inc_q,5,Richest 20%,38249,38249
+emp_in,0,out of workforce,57382,57382
+emp_in,1,in workforce,96541,96541
+emp_in,Sysmiss,,1000,1000
+mobileowner,1,yes,127777,127777
+mobileowner,2,no,26756,26756
+mobileowner,3,(dk),124,124
+mobileowner,4,(ref),264,264
+mobileowner,Sysmiss,,2,2

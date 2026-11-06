@@ -1,0 +1,21 @@
+economycode,n,con_cuenta,suma_pesos,suma_pesos_con_cuenta,sin_cuenta,porcentaje_con_cuenta_no_ponderado,porcentaje_con_cuenta_ponderado,economy,regionwb,economia_es,ponderacion
+HTI,503,143,503.1918205,141.2641256,360,28.42942346,28.07361325,Haiti,Latin America & Caribbean (excluding high income),Haití,wgt dentro de cada economía
+NIC,998,293,998.8382196,284.0178575,705,29.35871743,28.43482077,Nicaragua,Latin America & Caribbean (excluding high income),Nicaragua,wgt dentro de cada economía
+SLV,999,309,998.763924,293.3575291,690,30.93093093,29.372059,El Salvador,Latin America & Caribbean (excluding high income),El Salvador,wgt dentro de cada economía
+PRY,998,342,998.9366469,310.7389189,656,34.26853707,31.10696959,Paraguay,Latin America & Caribbean (excluding high income),Paraguay,wgt dentro de cada economía
+MEX,991,337,988.1404677,351.8710518,654,34.00605449,35.6094162,Mexico,Latin America & Caribbean (excluding high income),México,wgt dentro de cada economía
+PER,998,433,998.6471262,421.1067696,565,43.38677355,42.16772457,Peru,Latin America & Caribbean (excluding high income),Perú,wgt dentro de cada economía
+HND,998,436,998.9336995,429.444273,562,43.68737475,42.99026785,Honduras,Latin America & Caribbean (excluding high income),Honduras,wgt dentro de cada economía
+GTM,996,411,997.3301268,434.3788259,585,41.26506024,43.55416669,Guatemala,Latin America & Caribbean (excluding high income),Guatemala,wgt dentro de cada economía
+COL,997,430,995.5128288,448.8898254,567,43.12938816,45.09131499,Colombia,Latin America & Caribbean (excluding high income),Colombia,wgt dentro de cada economía
+PAN,991,463,991.1420297,455.395034,528,46.72048436,45.9464961,Panama,Latin America & Caribbean (excluding high income),Panamá,wgt dentro de cada economía
+ARG,998,526,999.0598554,479.1669289,472,52.70541082,47.9617839,Argentina,Latin America & Caribbean (excluding high income),Argentina,wgt dentro de cada economía
+ECU,999,504,999.6109743,508.2887037,495,50.45045045,50.84865181,Ecuador,Latin America & Caribbean (excluding high income),Ecuador,wgt dentro de cada economía
+BOL,999,530,997.8705715,509.9456075,469,53.05305305,51.10338175,Bolivia,Latin America & Caribbean (excluding high income),Bolivia,wgt dentro de cada economía
+DOM,953,496,954.9855475,525.9622819,457,52.04616999,55.07541798,Dominican Republic,Latin America & Caribbean (excluding high income),República Dominicana,wgt dentro de cada economía
+URY,996,601,997.2529352,637.5515297,395,60.34136546,63.93077496,Uruguay,High income: nonOECD,Uruguay,wgt dentro de cada economía
+CRI,997,665,998.1459323,677.3450694,332,66.7001003,67.86032458,Costa Rica,Latin America & Caribbean (excluding high income),Costa Rica,wgt dentro de cada economía
+BRA,990,704,987.372456,696.2929583,286,71.11111111,70.51978755,Brazil,Latin America & Caribbean (excluding high income),Brasil,wgt dentro de cada economía
+VEN,998,759,998.5363257,731.8926324,239,76.05210421,73.29654552,"Venezuela, RB",Latin America & Caribbean (excluding high income),Venezuela,wgt dentro de cada economía
+CHL,1038,711,1039.406614,767.9017296,327,68.49710983,73.87885736,Chile,High income: OECD,Chile,wgt dentro de cada economía
+TTO,490,397,493.3653878,398.8202296,93,81.02040816,80.83668606,Trinidad and Tobago,High income: nonOECD,Trinidad y Tobago,wgt dentro de cada economía

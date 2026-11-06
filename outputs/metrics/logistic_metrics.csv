@@ -1,0 +1,5 @@
+modelo,clase,etiqueta,precision,recall,f1_score,n_real,roc_auc_uno_contra_resto
+Baseline mayoritario,0,Sin cuenta,0.0,0.0,0.0,1888,0.5
+Baseline mayoritario,1,Con cuenta,0.5013206550449023,1.0,0.6678395496129487,1898,0.5
+Regresión logística,0,Sin cuenta,0.6457990115321252,0.6228813559322034,0.6341331895389593,1888,0.6980890343983854
+Regresión logística,1,Con cuenta,0.6376590330788804,0.660168598524763,0.6487186124773492,1898,0.6980890343983854

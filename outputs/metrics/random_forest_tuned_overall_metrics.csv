@@ -1,0 +1,2 @@
+modelo,n_prueba,accuracy,roc_auc_clase_1,f1_macro,sensibilidad_sin_cuenta,especificidad_sin_cuenta
+Random Forest ajustado,3786,0.6531959852086635,0.7105373240788698,0.6531905412824202,0.6509533898305084,0.6554267650158061

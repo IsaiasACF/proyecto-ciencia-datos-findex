@@ -1,0 +1,145 @@
+economy,economycode,regionwb,n_original,incluida_lac,criterio
+Afghanistan,AFG,South Asia,1000,False,Fuera del alcance
+Albania,ALB,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Algeria,DZA,Middle East & North Africa (excluding high income),1016,False,Fuera del alcance
+Argentina,ARG,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Armenia,ARM,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Australia,AUS,High income: OECD,1008,False,Fuera del alcance
+Austria,AUT,High income: OECD,1000,False,Fuera del alcance
+Azerbaijan,AZE,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Bahrain,BHR,High income: nonOECD,1060,False,Fuera del alcance
+Bangladesh,BGD,South Asia,1000,False,Fuera del alcance
+Belarus,BLR,Europe & Central Asia (excluding high income),1053,False,Fuera del alcance
+Belgium,BEL,High income: OECD,1001,False,Fuera del alcance
+Benin,BEN,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Bolivia,BOL,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Bosnia and Herzegovina,BIH,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Botswana,BWA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Brazil,BRA,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Bulgaria,BGR,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Burkina Faso,BFA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Cambodia,KHM,East Asia & Pacific (excluding high income),1600,False,Fuera del alcance
+Cameroon,CMR,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Canada,CAN,High income: OECD,1003,False,Fuera del alcance
+Central African Republic,CAF,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Chad,TCD,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Chile,CHL,High income: OECD,1040,True,Inclusión geográfica explícita
+China,CHN,East Asia & Pacific (excluding high income),3627,False,Fuera del alcance
+Colombia,COL,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+"Congo, Dem. Rep.",COD,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+"Congo, Rep.",COG,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Costa Rica,CRI,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Cote d'Ivoire,CIV,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Croatia,HRV,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Cyprus,CYP,High income: nonOECD,1023,False,Fuera del alcance
+Czech Republic,CZE,High income: OECD,1000,False,Fuera del alcance
+Denmark,DNK,High income: OECD,1000,False,Fuera del alcance
+Dominican Republic,DOM,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Ecuador,ECU,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+"Egypt, Arab Rep.",EGY,Middle East & North Africa (excluding high income),1000,False,Fuera del alcance
+El Salvador,SLV,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Estonia,EST,High income: OECD,1000,False,Fuera del alcance
+Ethiopia,ETH,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Finland,FIN,High income: OECD,1000,False,Fuera del alcance
+France,FRA,High income: OECD,1000,False,Fuera del alcance
+Gabon,GAB,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Georgia,GEO,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Germany,DEU,High income: OECD,1000,False,Fuera del alcance
+Ghana,GHA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Greece,GRC,High income: OECD,1000,False,Fuera del alcance
+Guatemala,GTM,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Guinea,GIN,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Haiti,HTI,Latin America & Caribbean (excluding high income),504,True,regionwb LAC
+Honduras,HND,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+"Hong Kong SAR, China",HKG,High income: nonOECD,1007,False,Fuera del alcance
+Hungary,HUN,High income: nonOECD,1000,False,Fuera del alcance
+India,IND,South Asia,3000,False,Fuera del alcance
+Indonesia,IDN,East Asia & Pacific (excluding high income),1000,False,Fuera del alcance
+"Iran, Islamic Rep.",IRN,Middle East & North Africa (excluding high income),1004,False,Fuera del alcance
+Iraq,IRQ,Middle East & North Africa (excluding high income),1000,False,Fuera del alcance
+Ireland,IRL,High income: OECD,1000,False,Fuera del alcance
+Israel,ISR,High income: OECD,1000,False,Fuera del alcance
+Italy,ITA,High income: OECD,1000,False,Fuera del alcance
+Japan,JPN,High income: OECD,1005,False,Fuera del alcance
+Jordan,JOR,Middle East & North Africa (excluding high income),1012,False,Fuera del alcance
+Kazakhstan,KAZ,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Kenya,KEN,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+"Korea, Rep.",KOR,High income: OECD,1000,False,Fuera del alcance
+Kosovo,XKX,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Kuwait,KWT,High income: nonOECD,1000,False,Fuera del alcance
+Kyrgyz Republic,KGZ,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Lao PDR,LAO,East Asia & Pacific (excluding high income),1000,False,Fuera del alcance
+Latvia,LVA,High income: OECD,1002,False,Fuera del alcance
+Lebanon,LBN,Middle East & North Africa (excluding high income),1000,False,Fuera del alcance
+Lesotho,LSO,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Liberia,LBR,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Libya,LBY,Middle East & North Africa (excluding high income),1002,False,Fuera del alcance
+Lithuania,LTU,High income: nonOECD,1000,False,Fuera del alcance
+Luxembourg,LUX,High income: OECD,1000,False,Fuera del alcance
+"Macedonia, FYR",MKD,Europe & Central Asia (excluding high income),1008,False,Fuera del alcance
+Madagascar,MDG,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Malawi,MWI,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Malaysia,MYS,East Asia & Pacific (excluding high income),1004,False,Fuera del alcance
+Mali,MLI,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Malta,MLT,High income: nonOECD,1003,False,Fuera del alcance
+Mauritania,MRT,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Mauritius,MUS,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Mexico,MEX,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Moldova,MDA,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Mongolia,MNG,East Asia & Pacific (excluding high income),1000,False,Fuera del alcance
+Montenegro,MNE,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Morocco,MAR,Middle East & North Africa (excluding high income),5110,False,Fuera del alcance
+Mozambique,MOZ,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Myanmar,MMR,East Asia & Pacific (excluding high income),1600,False,Fuera del alcance
+Namibia,NAM,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Nepal,NPL,South Asia,1000,False,Fuera del alcance
+Netherlands,NLD,High income: OECD,1000,False,Fuera del alcance
+New Zealand,NZL,High income: OECD,1000,False,Fuera del alcance
+Nicaragua,NIC,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Niger,NER,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Nigeria,NGA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Norway,NOR,High income: OECD,1000,False,Fuera del alcance
+Pakistan,PAK,South Asia,1600,False,Fuera del alcance
+Panama,PAN,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Paraguay,PRY,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Peru,PER,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Philippines,PHL,East Asia & Pacific (excluding high income),1000,False,Fuera del alcance
+Poland,POL,High income: OECD,1000,False,Fuera del alcance
+Portugal,PRT,High income: OECD,1002,False,Fuera del alcance
+Romania,ROU,Europe & Central Asia (excluding high income),1001,False,Fuera del alcance
+Russian Federation,RUS,Europe & Central Asia (excluding high income),2000,False,Fuera del alcance
+Rwanda,RWA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Saudi Arabia,SAU,High income: nonOECD,1009,False,Fuera del alcance
+Senegal,SEN,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Serbia,SRB,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Sierra Leone,SLE,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Singapore,SGP,High income: nonOECD,1000,False,Fuera del alcance
+Slovak Republic,SVK,High income: OECD,1000,False,Fuera del alcance
+Slovenia,SVN,High income: OECD,1000,False,Fuera del alcance
+South Africa,ZAF,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+South Sudan,SSD,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Spain,ESP,High income: OECD,1000,False,Fuera del alcance
+Sri Lanka,LKA,South Asia,1104,False,Fuera del alcance
+Sweden,SWE,High income: OECD,1000,False,Fuera del alcance
+Switzerland,CHE,High income: OECD,1000,False,Fuera del alcance
+"Taiwan, China",TWN,,1000,False,Fuera del alcance
+Tajikistan,TJK,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Tanzania,TZA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Thailand,THA,East Asia & Pacific (excluding high income),1000,False,Fuera del alcance
+Togo,TGO,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Trinidad and Tobago,TTO,High income: nonOECD,504,True,Inclusión geográfica explícita
+Tunisia,TUN,Middle East & North Africa (excluding high income),1001,False,Fuera del alcance
+Turkey,TUR,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Turkmenistan,TKM,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+Uganda,UGA,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Ukraine,UKR,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+United Arab Emirates,ARE,High income: nonOECD,1003,False,Fuera del alcance
+United Kingdom,GBR,High income: OECD,1000,False,Fuera del alcance
+United States,USA,High income: OECD,1005,False,Fuera del alcance
+Uruguay,URY,High income: nonOECD,1000,True,Inclusión geográfica explícita
+Uzbekistan,UZB,Europe & Central Asia (excluding high income),1000,False,Fuera del alcance
+"Venezuela, RB",VEN,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Vietnam,VNM,East Asia & Pacific (excluding high income),1002,False,Fuera del alcance
+West Bank and Gaza,PSE,Middle East & North Africa (excluding high income),1000,False,Fuera del alcance
+Zambia,ZMB,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance
+Zimbabwe,ZWE,Sub-Saharan Africa (excluding high income),1000,False,Fuera del alcance

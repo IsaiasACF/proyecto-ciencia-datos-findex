@@ -1,0 +1,15 @@
+{
+  "notebook": "notebooks/03_random_forest.ipynb",
+  "kernel_nuevo": true,
+  "errores": 0,
+  "celdas_codigo_ejecutadas": 15,
+  "n_candidatos": 16,
+  "n_folds": 5,
+  "seleccion_roc_auc_solo_entrenamiento": true,
+  "n_training_refit": 15141,
+  "n_test": 3786,
+  "inferencias_sobre_test_modelo_ajustado": 1,
+  "datos_split_y_resultados_previos_intactos": true,
+  "modelo": "models/random_forest_tuned.joblib",
+  "ganador_final_seleccionado": false
+}

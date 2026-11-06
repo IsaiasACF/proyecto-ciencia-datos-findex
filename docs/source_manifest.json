@@ -1,0 +1,23 @@
+[
+  {
+    "archive": "WLD_2017_FINDEX_v02_M_CSV.zip",
+    "member": "WLD_2017_FINDEX_v02_M_CSV/micro_world.csv",
+    "destination": "data/raw/micro_world.csv",
+    "sha256": "030cdf7fe9f251fca6a6ac320ff12491574f9513ff444b79e0949dc5a33fa719",
+    "bytes": 37888836
+  },
+  {
+    "archive": "WLD_2017_FINDEX_v02_M_ASCII_SPSS_SAS.zip",
+    "member": "WLD_2017_FINDEX_v02_M_ASCII_SPSS_SAS/micro_world.sps",
+    "destination": "docs/source/micro_world.sps",
+    "sha256": "059ad619123e81d1fc0764d3b77e24136a2aa23f2d8d0ea9c815fe69cf08f8d2",
+    "bytes": 12658
+  },
+  {
+    "archive": "WLD_2017_FINDEX_v02_M_ASCII_SPSS_SAS.zip",
+    "member": "WLD_2017_FINDEX_v02_M_ASCII_SPSS_SAS/micro_world.sas",
+    "destination": "docs/source/micro_world.sas",
+    "sha256": "5dc461defef2b4c813b29f5f65153be2fd4b25df254a262c89b0fcda857d730d",
+    "bytes": 18260
+  }
+]

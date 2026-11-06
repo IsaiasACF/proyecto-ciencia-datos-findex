@@ -1,0 +1,21 @@
+economy,economycode,regionwb,n_original,incluida_lac,criterio
+Argentina,ARG,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Bolivia,BOL,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Brazil,BRA,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Chile,CHL,High income: OECD,1040,True,Inclusión geográfica explícita
+Colombia,COL,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Costa Rica,CRI,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Dominican Republic,DOM,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Ecuador,ECU,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+El Salvador,SLV,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Guatemala,GTM,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Haiti,HTI,Latin America & Caribbean (excluding high income),504,True,regionwb LAC
+Honduras,HND,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Mexico,MEX,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Nicaragua,NIC,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Panama,PAN,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Paraguay,PRY,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Peru,PER,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC
+Trinidad and Tobago,TTO,High income: nonOECD,504,True,Inclusión geográfica explícita
+Uruguay,URY,High income: nonOECD,1000,True,Inclusión geográfica explícita
+"Venezuela, RB",VEN,Latin America & Caribbean (excluding high income),1000,True,regionwb LAC

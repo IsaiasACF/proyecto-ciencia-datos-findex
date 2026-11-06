@@ -1,0 +1,6 @@
+variable,codigo_referencia,categoria_referencia
+female,1,Hombre
+educ,1,Primaria o menos
+inc_q,1,Quintil 1
+emp_in,0,Fuera de fuerza laboral
+mobileowner,2,No tiene teléfono
